@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful Age Calculator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🎂 Age Calculator</h1>
+    <p>Enter your Date of Birth</p>
+    <form id="ageForm">
+      <div class="inputs">
+        <input type="number" id="day" placeholder="DD" min="1" max="31" required />
+        <input type="number" id="month" placeholder="MM" min="1" max="12" required />
+        <input type="number" id="year" placeholder="YYYY" min="1900" max="2100" required />
+      </div>
+      <button type="submit">🎉 Calculate Age</button>
+    </form>
+    <div id="result"></div>
+    <footer>
+      <p>🌐 <a href="https://www.codealpha.tech" target="_blank">www.codealpha.tech</a></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
